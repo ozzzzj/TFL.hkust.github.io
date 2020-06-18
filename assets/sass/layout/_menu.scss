@@ -20,7 +20,7 @@
 
 			a, span {
 				border-bottom: 0;
-				color: inherit;
+				color: blueviolet;
 				cursor: pointer;
 				display: block;
 				font-size: 0.9em;
@@ -55,7 +55,8 @@
 
 					&.active {
 						& + ul {
-							display: block;
+							//display: block;
+							color: blueviolet;
 						}
 
 						&:before {
@@ -73,7 +74,8 @@
 				padding: 0.5em 0 0 0;
 
 				> ul {
-					color: _palette(fg-light);
+					/*color: _palette(fg-light);*/
+					color: blueviolet;
 					display: none;
 					margin: 0.5em 0 1.5em 0;
 					padding-left: 1em;
